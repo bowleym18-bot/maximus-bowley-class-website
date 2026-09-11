@@ -1,0 +1,29 @@
+body {
+background-color:rgb(255, 244, 225);
+color:rgb(0, 0, 0);
+font-family: 'arial', 'Helvetica', 'sans-serif' ;
+margin: 50px; 
+} 
+
+title {
+     color:'black'
+}
+
+h1 { color: rgb(77, 103, 135);
+}
+
+h2 { color: rgb(77, 103, 135);}
+
+q { color: 'black'}
+
+dfn {color: 'black'}
+
+a {color: 'black'}
+
+p {color: 'black'}
+
+h3 { color: rgb(98, 136, 83);}
+
+h4 { color: rgb(83, 131, 136);}
+
+li { color: 'black'}
