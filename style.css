@@ -1,29 +1,79 @@
 body {
-background-color:rgb(255, 244, 225);
+background-color:rgb(243, 238, 229);
 color:rgb(0, 0, 0);
-font-family: 'arial', 'Helvetica', 'sans-serif' ;
-margin: 50px; 
+font-family: 'arial', 'Helvetica', 'sans-serif'
 } 
 
 title {
-     color:'black'
+     color:'black';
+     
 }
 
-h1 { color: rgb(77, 103, 135);
+h1 { 
+     color: rgb(77, 103, 135);
+     font-size: 40px;
+     text-align: center;
+     text-decoration-line: underline;
 }
 
-h2 { color: rgb(77, 103, 135);}
+h2 { 
+     color: rgb(77, 103, 135);
+     font-size: 40px;
+     text-align: center;
+     text-decoration-line: underline;
+}
 
-q { color: 'black'}
+q { 
+     color: rgb(33, 37, 42);
+     margin: 50px;
+}
 
-dfn {color: 'black'}
+dfn {
+     color: 'black';
+     text-decoration-line: dashed;
+     font-size: 30px;
+}
 
-a {color: 'black'}
+a {
+     color: 'rgb(0, 125, 242)';
+     font-size: medium;
+}
 
-p {color: 'black'}
+p { 
+     color: 'black'
+}
 
-h3 { color: rgb(98, 136, 83);}
+wbr {
+     color:rgba(73, 73, 74, 0.932)
+}
 
-h4 { color: rgb(83, 131, 136);}
+h3 { 
+     color: rgb(98, 136, 83);
+     font-size: 20px;
+     text-align: center;
+     text-decoration-style: dashed;
+}
 
-li { color: 'black'}
+img {
+     width: 370px;
+     border: 10px rgba(207, 205, 205, 0.843);
+     border-radius: 15px;
+     filter: drop-shadow(30px 30px 30px rgba(97, 97, 108, 0.5));
+}
+
+h4 { 
+     color: rgb(83, 131, 136);
+     font-size: 20px;
+}
+
+li {
+     color: 'black';
+     margin: 15px;
+     font-size: 15px;
+}
+
+address {
+     color: rgb(0, 0, 0);
+     font-size: 18px;
+     text-align: center;
+}
