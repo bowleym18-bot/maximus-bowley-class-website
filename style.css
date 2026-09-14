@@ -11,21 +11,22 @@ title {
 
 h1 { 
      color: rgb(77, 103, 135);
-     font-size: 40px;
+     font-size: 50px;
      text-align: center;
      text-decoration-line: underline;
 }
 
 h2 { 
      color: rgb(77, 103, 135);
-     font-size: 40px;
+     font-size: 50px;
      text-align: center;
      text-decoration-line: underline;
 }
 
 q { 
      color: rgb(33, 37, 42);
-     margin: 50px;
+     margin: 25px;
+     font-size: 30px;
 }
 
 dfn {
@@ -36,12 +37,16 @@ dfn {
 
 a {
      color: 'rgb(0, 125, 242)';
-     font-size: medium;
+     font-size: 30px;
+     margin: 30px;
+     background-color:rgb(174, 154, 128)
 }
 
 p { 
-     color: 'black'
-}
+     color: 'black';
+     font-size: 30px;
+     margin: 25px;
+ }
 
 wbr {
      color:rgba(73, 73, 74, 0.932)
@@ -49,9 +54,8 @@ wbr {
 
 h3 { 
      color: rgb(98, 136, 83);
-     font-size: 20px;
+     font-size: 40px;
      text-align: center;
-     text-decoration-style: dashed;
 }
 
 img {
@@ -59,21 +63,23 @@ img {
      border: 10px rgba(207, 205, 205, 0.843);
      border-radius: 15px;
      filter: drop-shadow(30px 30px 30px rgba(97, 97, 108, 0.5));
+     align-items: center;
+     margin: 20px;
 }
 
 h4 { 
      color: rgb(83, 131, 136);
-     font-size: 20px;
+     font-size: 40px;
 }
 
 li {
      color: 'black';
      margin: 15px;
-     font-size: 15px;
+     font-size: 22px;
 }
 
 address {
      color: rgb(0, 0, 0);
-     font-size: 18px;
+     font-size: 25px;
      text-align: center;
 }
