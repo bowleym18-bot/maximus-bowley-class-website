@@ -6,45 +6,51 @@ font-family: 'arial', 'Helvetica', 'sans-serif'
 
 title {
      color:'black';
-     
 }
 
 h1 { 
      color: rgb(77, 103, 135);
-     font-size: 50px;
+     font-size: 70px;
      text-align: center;
      text-decoration-line: underline;
 }
 
 h2 { 
      color: rgb(77, 103, 135);
-     font-size: 50px;
+     font-size: 70px;
      text-align: center;
      text-decoration-line: underline;
 }
 
 q { 
      color: rgb(33, 37, 42);
-     margin: 25px;
-     font-size: 30px;
+     margin: 20px;
+     font-size: 40px;
 }
 
 dfn {
      color: 'black';
      text-decoration-line: dashed;
-     font-size: 30px;
+     font-size: 40px;
 }
 
+#Links {
+     color:'rgb(0, 125, 242)';
+     align-items: right;
+     text-align: right;
+}
 a {
      color: 'rgb(0, 125, 242)';
-     font-size: 30px;
-     margin: 30px;
-     background-color:rgb(174, 154, 128)
+     font-size: 40px;
+     margin: 40px;
+     background-color:rgb(179, 255, 0);
+     align-items: right;
+     text-align: right;
 }
 
 p { 
      color: 'black';
-     font-size: 30px;
+     font-size: 40px;
      margin: 25px;
  }
 
@@ -54,12 +60,12 @@ wbr {
 
 h3 { 
      color: rgb(98, 136, 83);
-     font-size: 40px;
+     font-size: 75px;
      text-align: center;
 }
 
 img {
-     width: 370px;
+     width: 680px;
      border: 10px rgba(207, 205, 205, 0.843);
      border-radius: 15px;
      filter: drop-shadow(30px 30px 30px rgba(97, 97, 108, 0.5));
@@ -69,17 +75,26 @@ img {
 
 h4 { 
      color: rgb(83, 131, 136);
-     font-size: 40px;
+     font-size: 75px;
 }
 
+#list {
+     color: 'black';
+     background-color: rgb(255, 255, 255);
+     padding: 18px;
+     border-radius: 20px;
+     width: 400px;
+     height: 670px;
+     border: 10px solid black;
+}
 li {
      color: 'black';
      margin: 15px;
-     font-size: 22px;
+     font-size: 40px;
 }
 
 address {
      color: rgb(0, 0, 0);
-     font-size: 25px;
+     font-size: 40px;
      text-align: center;
 }
