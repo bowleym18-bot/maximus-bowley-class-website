@@ -1,7 +1,7 @@
 body {
 background-color:rgb(243, 238, 229);
 color:rgb(0, 0, 0);
-font-family: 'arial', 'Helvetica', 'sans-serif'
+font-family: 'time new romain', 'sans-serif'
 } 
 
 title {
@@ -25,13 +25,14 @@ h2 {
 q { 
      color: rgb(33, 37, 42);
      margin: 20px;
-     font-size: 40px;
+     font-size: 55px;
 }
 
 dfn {
      color: 'black';
-     text-decoration-line: dashed;
-     font-size: 40px;
+     text-align: center;
+     font-size: 50px;
+     margin: 50px;
 }
 
 #Links {
@@ -41,7 +42,7 @@ dfn {
 }
 a {
      color: 'rgb(0, 125, 242)';
-     font-size: 40px;
+     font-size: 50px;
      margin: 40px;
      background-color:rgb(179, 255, 0);
      align-items: right;
@@ -50,7 +51,7 @@ a {
 
 p { 
      color: 'black';
-     font-size: 40px;
+     font-size: 55px;
      margin: 25px;
  }
 
@@ -65,12 +66,11 @@ h3 {
 }
 
 img {
-     width: 680px;
+     width: 800px;
      border: 10px rgba(207, 205, 205, 0.843);
      border-radius: 15px;
      filter: drop-shadow(30px 30px 30px rgba(97, 97, 108, 0.5));
-     align-items: center;
-     margin: 20px;
+     margin: 40px;
 }
 
 h4 { 
@@ -78,23 +78,53 @@ h4 {
      font-size: 75px;
 }
 
-#list {
+#list1 {
+     color: 'black';
+     background-color: rgb(255, 172, 172);
+     padding: 18px;
+     border-radius: 20px;
+     width: 400px;
+     height: 300px;
+     border: 10px solid black;
+}
+
+#list2 {
+     color: 'black';
+     background-color: rgb(179, 255, 172);
+     padding: 18px;
+     border-radius: 20px;
+     width: 400px;
+     height: 430px;
+     border: 10px solid black;
+}
+
+#list3 {
+     color: 'black';
+     background-color: rgb(201, 255, 245);
+     padding: 18px;
+     border-radius: 20px;
+     width: 400px;
+     height: 300px;
+     border: 10px solid black;
+}
+#list4 {
      color: 'black';
      background-color: rgb(255, 255, 255);
      padding: 18px;
      border-radius: 20px;
      width: 400px;
-     height: 670px;
+     height: 550px;
      border: 10px solid black;
 }
 li {
      color: 'black';
      margin: 15px;
-     font-size: 40px;
+     font-size: 45px;
+     align-items: right;
 }
 
 address {
      color: rgb(0, 0, 0);
-     font-size: 40px;
+     font-size: 55px;
      text-align: center;
 }
