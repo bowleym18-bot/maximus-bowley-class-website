@@ -7,7 +7,13 @@ font-family: 'time new romain', 'sans-serif'
 title {
      color:'black';
 }
-
+style
+div {
+     border: 10px solid black;
+     margin-bottom: 40px;
+     padding: 20px;
+     
+}
 h1 { 
      color: rgb(77, 103, 135);
      font-size: 70px;
@@ -31,8 +37,9 @@ q {
 dfn {
      color: 'black';
      text-align: center;
-     font-size: 50px;
-     margin: 50px;
+     font-size: 60px;
+     margin: 1000px;
+     text-align: center;
 }
 
 #Links {
@@ -43,10 +50,22 @@ dfn {
 a {
      color: 'rgb(0, 125, 242)';
      font-size: 50px;
-     margin: 40px;
-     background-color:rgb(179, 255, 0);
+     margin: 50px;
+     background-color:rgb(193, 255, 50);
      align-items: right;
      text-align: right;
+}
+#Paragraph1 {
+     background-color: rgb(163, 205, 248);
+     border-radius: 30px;
+     border-color: black;
+     margin: 20px;
+}
+#Paragraph2 {
+     background-color: rgb(179, 221, 255);
+     border-radius: 30px;
+     border-color: black;
+     margin: 20px;
 }
 
 p { 
@@ -120,7 +139,6 @@ li {
      color: 'black';
      margin: 15px;
      font-size: 45px;
-     align-items: right;
 }
 
 address {
