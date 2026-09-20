@@ -7,18 +7,22 @@ font-family: 'time new romain', 'sans-serif'
 title {
      color:'black';
 }
-style
 div {
-     margin-bottom: 40px;
-     padding: 20px; 
+     margin-bottom: 45px;
+     margin-top: 45px;
+     padding: 25px; 
      border-radius: 40px;
-     border-color: black;
+     border: 10px, dashed black;
      background-color: white;
 }
+
 .highlight {
-     color: white;
+     border: white;
      padding: 15px;
+     margin: 20px;
+     text-align: center;
 }
+
 h1 { 
      color: rgb(77, 103, 135);
      font-size: 70px;
@@ -56,8 +60,7 @@ dfn {
 
 #Links {
      color:'rgb(0, 125, 242)';
-     align-items: right;
-     text-align: right;
+     align-items: center;
 }
 a {
      color: 'rgb(0, 125, 242)';
@@ -70,20 +73,21 @@ a {
 #Paragraph1 {
      background-color: rgb(163, 205, 248);
      border-radius: 30px;
-     border-color: black;
      margin: 20px;
+     font-size-adjust: 30px;
 }
 #Paragraph2 {
-     background-color: rgb(179, 221, 255);
+     background-color: rgb(226, 180, 255);
      border-radius: 30px;
-     border-color: black;
      margin: 20px;
+     font-size-adjust: 30px;
 }
 
 p { 
      color: 'black';
-     font-size: 55px;
-     margin: 25px;
+     font-size: 60px;
+     margin: 10px;
+     text-align: center;
  }
 
 wbr {
