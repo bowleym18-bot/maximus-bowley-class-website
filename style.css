@@ -4,37 +4,34 @@ color:rgb(0, 0, 0);
 font-family: 'time new romain', 'sans-serif'
 } 
 
-title {
-     color:'black';
-}
 div {
-     margin-bottom: 35px;
-     margin-top: 35px;
-     padding: 25px; 
-     border-radius: 40px;
-     border: 10px, dashed black;
-     background-color: white;
+    margin: 95px;
+    padding: 25px; 
+    border-radius: 40px;
+    border: 10px, dashed black;
+    background-color: white;
+    width: 50;
 }
 
 .highlight {
-     border: 15px;
+     border: 15px; 
+     border-color: black;
+     border-style: groove;
      border-radius: 30px;
      padding: 15px;
-     margin-top: 20px;
-     margin-bottom: 20px;
      text-decoration: underline;
      text-indent: 40%;
 }
 
 h1 { 
      color: rgb(77, 103, 135);
-     font-size: 70px;
+     font-size: 90px;
      text-align: center;
      text-decoration-line: underline;
 }
 h2 { 
      color: rgb(77, 103, 135);
-     font-size: 70px;
+     font-size: 85px;
      text-align: center;
      text-decoration-line: underline;
 }
@@ -63,8 +60,9 @@ dfn {
 }
 
 #Links {
-     color:'rgb(0, 125, 242)';
-     align-items: center;
+     padding: 55%;
+     border: aqua;
+     margin: 100%;
 }
 a {
      color: 'rgb(0, 125, 242)';
@@ -74,19 +72,19 @@ a {
      align-items: right;
      text-align: right;
 }
+
 #Paragraph1 {
      background-color: rgb(163, 205, 248);
      border-radius: 30px;
-     margin-bottom: 20px;
-     margin-top: 20px;
-     font-size-adjust: 30px;
+     margin: 20px;
+     font-size-adjust: 45px;
 }
+
 #Paragraph2 {
      background-color: rgb(226, 180, 255);
      border-radius: 30px;
-     margin-bottom: 20px;
-     margin-top: 20px;
-     font-size-adjust: 30px;
+     margin: 20px;
+     font-size-adjust: 450px;
 }
 
 p { 
