@@ -8,8 +8,8 @@ title {
      color:'black';
 }
 div {
-     margin-bottom: 45px;
-     margin-top: 45px;
+     margin-bottom: 35px;
+     margin-top: 35px;
      padding: 25px; 
      border-radius: 40px;
      border: 10px, dashed black;
@@ -17,10 +17,13 @@ div {
 }
 
 .highlight {
-     border: white;
+     border: 15px;
+     border-radius: 30px;
      padding: 15px;
-     margin: 20px;
-     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-decoration: underline;
+     text-indent: 40%;
 }
 
 h1 { 
@@ -49,7 +52,8 @@ h4 {
 q { 
      color: rgb(33, 37, 42);
      margin: 20px;
-     font-size: 55px;
+     font-size: 60px;
+     text-align: center
 }
 
 dfn {
@@ -73,13 +77,15 @@ a {
 #Paragraph1 {
      background-color: rgb(163, 205, 248);
      border-radius: 30px;
-     margin: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
      font-size-adjust: 30px;
 }
 #Paragraph2 {
      background-color: rgb(226, 180, 255);
      border-radius: 30px;
-     margin: 20px;
+     margin-bottom: 20px;
+     margin-top: 20px;
      font-size-adjust: 30px;
 }
 
@@ -87,7 +93,6 @@ p {
      color: 'black';
      font-size: 60px;
      margin: 10px;
-     text-align: center;
  }
 
 wbr {
