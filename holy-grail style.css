@@ -1,13 +1,14 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  color: black;
+  background-color: black;
 }
 
 .container {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 300px 1fr 300px;
+  gap: 30px;
   grid-template-areas: 
     "header header header"
     "nav main aside"
