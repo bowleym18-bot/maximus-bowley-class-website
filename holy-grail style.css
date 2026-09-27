@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 300px 1fr 300px;
+  grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+}
+
+header {
+  grid-area: header;
+  padding: 20px;
+  background-color: rgb(198, 4, 4);
+}
+
+nav {
+  grid-area: nav;
+  padding: 20px;
+  background-color: rgb(158, 255, 237);
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+  background-color: rgb(246, 255, 145);
+}
+
+aside {
+  grid-area: aside;
+  padding: 20px;
+  background-color: rgb(246, 123, 255);
+}
+
+footer {
+  grid-area: footer;
+  padding: 20px;
+  background-color: rgb(126, 108, 247);
+}
