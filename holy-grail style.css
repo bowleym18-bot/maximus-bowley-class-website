@@ -19,7 +19,7 @@ header {
   grid-area: header;
   padding: 50px;
   height: 100px;
-  background-color: rgb(198, 4, 4);
+  background-color: rgb(242, 73, 73);
 }
 
 nav {
