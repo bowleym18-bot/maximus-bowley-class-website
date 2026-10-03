@@ -3,12 +3,19 @@ background-color:rgb(252, 226, 181);
 color:rgb(0, 0, 0);
 font-family: 'time new romain', 'sans-serif';
 margin: 70px;
+align-items: center;
 } 
 
 h1 { 
      color: rgb(14, 123, 255);
      font-size: 40px;
      text-decoration-line: underline;
+}
+
+h2 {
+     color: rgb(0, 17, 38);
+     font-size: 30px;
+     text-decoration-line: dashed;
 }
 
 button {
@@ -18,8 +25,14 @@ button {
 }
 
 img {
-     width: 250px;
-     border: 10px rgba(0, 0, 0, 0.843);
+     width: 300px;
+     border: 40px rgba(0, 0, 0, 0.843);
      border-radius: 15px;
      margin: 40px;
+}
+
+a {
+     color: rgb(254, 254, 254);
+     font-size: 25px;
+     background-color:rgb(78, 217, 255);
 }

@@ -5,20 +5,37 @@ function changeMessage() {
 }
 button.addEventListener("click", changeMessage);
 
+
 const message = document.querySelector("#message");
 
 function changeButton () {
     button.style.backgroundColor = "red";
-;
 }
 button.addEventListener("click", changeButton);
 
-const imageElement = document.getElementById('myImage');
-const buttonElement = document.getElementById('changeBtn');
 
-function changeImage() {
-    imageElement.src = "image6.jpg";
+const images = ["image6.jpg", "image5.jpg", "image7.jpg", "image8.jpg"];
+let currentIndex = 0;
+
+const imageElement = document.getElementById("galleryImage");
+const prevButton = document.getElementById("prevBtn");
+const nextButton = document.getElementById("nextBtn");
+
+function updateImage() {
+  imageElement.src = images[currentIndex];
 }
+nextButton.addEventListener("click", () => {
+  currentIndex++;
+  if (currentIndex >= images.length) {
+    currentIndex = 0;
+  }
+  updateImage();
+});
 
-// 3. Attach the event listener to the button
-buttonElement.addEventListener('click', changeImage);
+prevButton.addEventListener("click", () => {
+  currentIndex--;
+  if (currentIndex < 0) {
+    currentIndex = images.length - 1;
+  }
+  updateImage();
+});
