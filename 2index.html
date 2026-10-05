@@ -20,14 +20,16 @@
 
 <script src="2javascript.js"></script>
 
-<div class="gallery">
-  
-  <button id="preBtn">Previous Image</button>
+<div class="slider-container">
 
-  <img id="galleryImage" src="image6.jpg" alt="First Photo is a flower arrangment made from my Mom's Gardena">
+  <img id="slider-image" src="image6.jpg" alt="First Photo is a flower arrangment made from my Mom's Gardena">
 
-  <button id="nextBtn">Next Image</button>
+  <br>
 
+  <button onclick="changeImage(-1)">Previous</button>
+  <button onclick="changeImage(1)">Next</button>
+
+  <br>
 </div>
 
 </body>
