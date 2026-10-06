@@ -59,7 +59,7 @@ dfn {
      color: 'black';
      font-size: 35px;
      margin: 20px;
-     text-align: center;
+     align-items: center;
 }
 
 #Links {
@@ -80,14 +80,14 @@ a {
      background-color: rgb(163, 205, 248);
      border-radius: 30px;
      margin: 20px;
-     font-size-adjust: 95px;
+     font-size-adjust: 500px;
 }
 
 #Paragraph2 {
      background-color: rgb(226, 180, 255);
      border-radius: 30px;
      margin: 20px;
-     font-size-adjust: 95px;
+     font-size-adjust: 500px;
 }
 
 p { 
