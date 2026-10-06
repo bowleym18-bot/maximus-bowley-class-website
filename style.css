@@ -6,9 +6,9 @@ margin: 70px;
 } 
 
 div {
-    margin: 80px;
+    margin: 50px;
     padding: 25px; 
-    border-radius: 40px;
+    border-radius: 20px;
     border: 10px, dashed black;
     background-color: white;
     align-items: center;
@@ -27,24 +27,24 @@ div {
 
 h1 { 
      color: rgb(77, 103, 135);
-     font-size: 90px;
+     font-size: 40px;
      text-align: center;
      text-decoration-line: underline;
 }
 h2 { 
      color: rgb(77, 103, 135);
-     font-size: 85px;
+     font-size: 35px;
      text-align: center;
      text-decoration-line: underline;
 }
 h3 { 
      color: rgb(98, 136, 83);
-     font-size: 75px;
+     font-size: 35px;
      text-align: center;
 }
 h4 { 
      color: rgb(83, 131, 136);
-     font-size: 75px;
+     font-size: 35px;
      text-align: center;
 }
 
@@ -52,12 +52,12 @@ q {
      align-self: center;
      color: rgb(33, 37, 42);
      margin: 20px;
-     font-size: 60px;
+     font-size: 30px;
 }
 
 dfn {
      color: 'black';
-     font-size: 65px;
+     font-size: 35px;
      margin: 20px;
      text-align: center;
 }
@@ -69,8 +69,8 @@ dfn {
 }
 a {
      color: 'rgb(0, 125, 242)';
-     font-size: 69.5px;
-     margin: 50px;
+     font-size: 35px;
+     margin: 25px;
      background-color:rgb(193, 255, 50);
      align-items: center;
      text-align: center;
@@ -80,7 +80,7 @@ a {
      background-color: rgb(163, 205, 248);
      border-radius: 30px;
      margin: 20px;
-     font-size-adjust: 45px;
+     font-size-adjust: 15px;
 }
 
 #Paragraph2 {
@@ -92,7 +92,7 @@ a {
 
 p { 
      color: 'black';
-     font-size: 60px;
+     font-size: 20px;
      margin: 10px;
  }
 
@@ -100,7 +100,7 @@ wbr {
      color:rgba(73, 73, 74, 0.932)
 }
 img {
-     width: 800px;
+     width: 400px;
      border: 10px rgba(207, 205, 205, 0.843);
      border-radius: 15px;
      filter: drop-shadow(30px 30px 30px rgba(97, 97, 108, 0.5));
