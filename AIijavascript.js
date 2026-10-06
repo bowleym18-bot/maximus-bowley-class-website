@@ -13,7 +13,7 @@ function changeButton () {
 }
 button.addEventListener("click", changeButton);
 
-
+//AI Assisted Code
         let index = 0;
 
         function changePicture() {
