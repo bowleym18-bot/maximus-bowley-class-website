@@ -14,29 +14,61 @@ function changeButton () {
 button.addEventListener("click", changeButton);
 
 
-const images = [
-  "image6.jpg",
-  "image5.jpg",
-  "image7.jpg",
-  "image8.jpg"
-];
+        let index = 0;
 
-function changeMessage() {
-    message.textContent = "You click the Button!";
-}
-button.addEventListener("click", changeMessage);
+        function changePicture() {
+            const picture = document.getElementById("picture");
 
-let currentIndex = 0;
+            // Sizes
+            const sizes = ["25px", "50px", "100px", "250px", "100px"];
 
-function changeImage(direction) {
-  currentIndex = currentIndex + direction;
+            // Colors
+            const colors = ["red", "brown", "blue", "purple", "white"];
 
-  if (currentIndex >= images.length) {
-    currentIndex = 0;
-  } else if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  }
+            // Change the size and color
+            picture.style.fontSize = sizes[index];
+            picture.style.color = colors[index];
 
-  const imgElement = document.getElementById("slider-image");
-  imgElement.src = images[currentIndex];
-}
+            // Change the placement
+            if (index === 0) {
+                // Center
+                picture.style.left = "50%";
+                picture.style.top = "50%";
+                picture.style.transform = "translate(-50%, -50%)";
+
+            } else if (index === 1) {
+                // Upper top left
+                picture.style.left = "60px";
+                picture.style.top = "60px";
+                picture.style.transform = "none";
+
+            } else if (index === 2) {
+                // Middle right
+                picture.style.left = "45%";
+                picture.style.top = "45%";
+                picture.style.transform = "translate(55%, 55%)";
+
+            } else if (index === 3) {
+                // Bottom left
+                picture.style.left = "-35px";
+                picture.style.bottom = "-35px";
+                picture.style.top = "left";
+                picture.style.transform = "none";
+
+            } else if (index === 4) {
+                // Upper top right
+                picture.style.right = "-50px";
+                picture.style.left = "auto";
+                picture.style.top = "-50px";
+                picture.style.bottom = "bottom right";
+                picture.style.transform = "none";
+            }
+
+            // Move to the next style
+            index++;
+
+            // Start over after the fifth click
+            if (index === 5) {
+                index = 0;
+            }
+        }
