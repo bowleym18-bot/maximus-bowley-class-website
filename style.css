@@ -21,7 +21,7 @@ div {
      border-radius: 20px;
      padding: 15px;
      text-decoration: underline;
-     text-indent: 50%;
+     text-indent: 100%;
      background-color: black;
      align-items: center;
 }
@@ -52,8 +52,8 @@ h4 {
 q { 
      align-items: center;
      color: rgb(33, 37, 42);
-     margin: 20px;
-     font-size: 15px;
+     margin: 10px;
+     font-size: 17px;
 }
 
 dfn {
@@ -72,11 +72,9 @@ dfn {
 }
 a {
      color: 'rgb(0, 125, 242)';
-     font-size: 15px;
+     font-size: 17px;
      margin: 25px;
      background-color:rgb(193, 255, 50);
-     align-items: center;
-     text-align: center;
 }
 
 #Paragraph1 {
@@ -97,7 +95,7 @@ a {
 
 p { 
      color: 'black';
-     font-size: 15px;
+     font-size: 17px;
      margin: 10px;
  }
 
@@ -105,7 +103,7 @@ wbr {
      color:rgba(73, 73, 74, 0.932)
 }
 img {
-     width: 200px;
+     width: 300px;
      border: 10px rgba(207, 205, 205, 0.843);
      border-radius: 15px;
      filter: drop-shadow(30px 30px 30px rgba(97, 97, 108, 0.5));
@@ -147,7 +145,7 @@ img {
      padding: 18px;
      border-radius: 20px;
      width: 250px;
-     height: 260px;
+     height: 270px;
      border: 10px solid black;
 }
 li {
