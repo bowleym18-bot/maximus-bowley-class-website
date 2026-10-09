@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 25px;
   font-family: sans-serif;
   background-color: black;
 }
@@ -20,32 +20,40 @@ header {
   padding: 50px;
   height: 100px;
   background-color: rgb(242, 73, 73);
+  font-size: 24px;
+  text-align: center;
 }
 
 nav {
   grid-area: nav;
-  padding: 50px;
-   height: 300px;
+  padding: 40px;
+  height: 200px;
   background-color: rgb(158, 255, 237);
+  font-size: 16px;
 }
 
 main {
   grid-area: main;
-  padding: 50px;
-   height: 300px;
+  padding: 40px;
+  height: 200px;
   background-color: rgb(246, 255, 145);
+  font-size: 16px;
+  text-align: center;
 }
 
 aside {
   grid-area: aside;
-  padding: 50px;
-   height: 300px;
+  padding: 40px;
+  height: 200px;
   background-color: rgb(246, 123, 255);
+  font-size: 16px;
 }
 
 footer {
   grid-area: footer;
-  padding: 50px;
-   height: 90px;
+  padding: 70px;
+  height: 100px;
   background-color: rgb(126, 108, 247);
+  font-size: 12px;
+  text-align: center;
 }
