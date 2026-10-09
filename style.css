@@ -2,11 +2,11 @@ body {
 background-color:rgb(243, 238, 229);
 color:rgb(0, 0, 0);
 font-family: 'time new romain', 'sans-serif';
-margin: 35px;
+margin: 20px;
 } 
 
 div {
-    margin: 35px;
+    margin: 25px;
     padding: 15px; 
     border-radius: 20px;
     border: 10px dashed black;
@@ -16,7 +16,7 @@ div {
 
 .highlight {
      border: 15px; 
-     border-color: solid yellow;
+     border-color: solid rgb(0, 123, 144);
      border-style: groove;
      border-radius: 20px;
      padding: 15px;
